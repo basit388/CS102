@@ -1,5 +1,7 @@
 package Arrays2D;
 
+import java.util.Scanner;
+
 /*
 ==========================2026 (c) Basit Qureshi ===========================
 
@@ -18,19 +20,25 @@ Your program randomly fills the values in the 2D array.
 Your program shows the sum of scores for each student.
 */
 
-
 public class EXArray2D1 {
     public static void main(String [] s)
     {
         //TO DO: Ask the user to input number of students and number of exams
+        Scanner In = new Scanner(System.in);
+        System.out.println("Enter number of students: ");
+        int Students = In.nextInt();
         
-        
+        System.out.println("Enter number of exams: ");
+        int Exams = In.nextInt();
         //Define array
         //int [][] a = new int [rows][cols];
-        
+            
+        double [][] Arr = new double [Students][Exams];
+   
+    
         
         //Randomly fill the array
-        
+        fillArray(Arr);
         
         //Display the sum for each student
         
@@ -38,6 +46,28 @@ public class EXArray2D1 {
 
 
         
+    }
+    
+    public static void fillArray(double [][] S)
+    {
+        int rows = S.length;
+        int cols = S[0].length;
+        
+        for(int i=0; i< rows; i++)
+        {
+            for(int j=0;j< cols; j++)
+            {
+                S[i][j]= Math.random()*10;
+            }
+        }
+    }
+    
+    public static double sumRow(double [][]S, int student)
+    {
+        double sum = 0;
+
+        
+        return sum;
     }
     
 }

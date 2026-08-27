@@ -17,13 +17,13 @@ public class Array2D7 {
     {
         //number of rows defined
         //number of col not defined
-        int [][] a = new int [3][];
+        int [][] a = new int [4][];
         
         //for each row, define a different column size
         a[0] = new int [4];
         a[1] = new int [3];
         a[2] = new int [2];
-
+        a[3] = new int [1];
         
         a[0][0] = 1;
         a[0][1] = 2;        
@@ -35,13 +35,29 @@ public class Array2D7 {
         a[1][2] = 7;
 
         a[2][0] = 8;
-        a[2][1] = 9;        
+        a[2][1] = 9; 
         
+        a[3][0] = 0;
+/*        
         System.out.println(a[0][0] + " " +a[0][1] + " "+a[0][2]+ " "+a[0][3]);
         System.out.println(a[1][0] + " " +a[1][1] + " "+a[1][2]);
         System.out.println(a[2][0] + " " +a[2][1]);
+        System.out.println(a[3][0]);
+*/        
+        print(a);
+    }
+    
+    public static void print(int [][] R)
+    {
+        for(int i=0; i<R.length ;i++)
+        {
+            for(int j=0; j<R[i].length; j++)
+            {
+                System.out.print(R[i][j] + " ");
+            }
+            System.out.println();
+        }
         
         
     }
-    
 }

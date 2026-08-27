@@ -66,24 +66,28 @@ public class Array2D8 {
         a[2][2][2] = 9;   
         
         //Lets print page by page
-        print(a[0]);
-        print(a[1]);
-        print(a[2]);        
+        print(a);
+        
         
     }
     
     
     
-    public static void print(int [][] S)
+    public static void print(int [][][] S)
     {
-        int row = S.length;
-        int col = S[0].length;
+        int pages = S.length;
+        int rows = S[0].length;
+        int cols = S[0][0].length;
         
-        for(int i=0; i<row ; i++)
+        for(int i=0; i<pages ; i++)
         {
-            for(int j=0;j<col; j++)
+            for(int j=0;j<rows; j++)
             {
-                System.out.print(S[i][j] + " ");
+                for(int k=0; k<cols; k++){
+                   System.out.print(S[i][j][k] + " ");
+
+                }
+                System.out.println();
             }
             System.out.println();
                     

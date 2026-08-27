@@ -1,5 +1,9 @@
 package Arrays2D;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /*
 ==========================2026 (c) Basit Qureshi ===========================
 
@@ -24,18 +28,17 @@ the lowest scores.
 
 
 public class EXArray2D3 {
-    public static void main(String [] s)
+    public static void main(String [] s)throws FileNotFoundException
     {
         //TO DO: Make a 2D array of type char
-        char [][] Scores;
         
         //Ask user to input the correct answer and store it in KEY.
-        char [] KEY = new char [10];
-        
+         
         //Open the file "E3.txt" and read the contents in the array
         
+        
         //call getScore method. Compute the score for each row in Scores.
-
+        
         //display the average, max and min scores.
         
     }
@@ -44,13 +47,38 @@ public class EXArray2D3 {
     public static int getScore(char [][] C, char [] KEY, int row)
     {
         //grade the score for the student in row
-        
+
         //match each column value in C[row][col] with KEY[col]. If it is
         //identical, student eachs 1 pt.
         
+        
+        
         //return the sum
-        return 0;
+
     }    
     
+    public static int maxGrade(int [] G){
+        int max = 0;
+        for(int i=0;i<10;i++)
+        {
+            if(max < G[i])
+                max = G[i];
+        }
+        return max;
+    }
+
+    public static int minGrade(int [] G){
+        int min = 0;
+        
+        
+        return min;
+    }  
     
+    public static double avgGrade(int [] G)
+    {
+        int sum = 0;
+        
+        
+        return sum/10;
+    }    
 }

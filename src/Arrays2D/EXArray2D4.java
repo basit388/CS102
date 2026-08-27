@@ -1,5 +1,7 @@
 package Arrays2D;
 
+import java.util.Scanner;
+
 /*
 ==========================2026 (c) Basit Qureshi ===========================
 
@@ -30,12 +32,37 @@ methods:
 public class EXArray2D4 {
     public static void main(String [] s)
     {
-
-        
-        
-
-
+       
         
     }
     
+    public static int [][] makeArray(int r, int c)
+    {
+    }
+    
+    
+    public static void fillArray(int [][] A)
+    {
+        
+        
+    }
+
+    public static void printArray(int [][] A)
+    {
+        
+        
+    } 
+    
+    
+    //find the max value in row r
+    public static int findMaxR(int [][] A, int r) {
+        
+        
+    }
+    
+    //find the min value in col c
+    public static int findMinC(int [][] A, int c) {
+        
+        
+    }    
 }

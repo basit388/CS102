@@ -34,6 +34,10 @@ public class Array2D6 {
         
         System.out.println("Largest values is: " + max(a));
         
+        System.out.println("Type a key");
+        int key = In.nextInt();
+        
+        System.out.println("Key found?" + find(a, key));
     }
     
     public static void randomFill(int [][] S)
@@ -81,4 +85,23 @@ public class Array2D6 {
         }
         return max;
     }
+    
+    
+    public static boolean find(int [][] A, int key)
+    {
+        //find key in the array A; return true if found
+        boolean Flag =false;
+        for(int i =0; i < A.length ;i++)
+        {
+            for(int j =0; j<A[0].length ;j++)
+            {
+                if(A[i][j]==key)
+                {
+                    Flag = true;
+                }
+            }
+        }
+        return Flag;
+    }
+    
 }

@@ -26,7 +26,7 @@ public class Array7
         int [] myList = makeArray(size);
         // Populate the array with random integers
         for (int i = 0; i < myList.length; i++) 
-            myList[i] = (int)(Math.random() * 1000);
+            myList[i] = (int)(Math.random() * 10);
         
         // input search term
         System.out.print("Enter value to search :");
@@ -63,8 +63,10 @@ public class Array7
   {
       boolean Found = false;  
       for (int i = 0; i < S.length; i++) {
-            if(S[i] == term); 
+            if(S[i] == term) 
+            {
               Found = true;
+            }
       }
       return Found;
   }

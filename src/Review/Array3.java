@@ -37,14 +37,25 @@ public class Array3
         }
         myList[myList.length-1] = temp;
 
+        
+        System.out.println("");
         //printing
         for (int i = 0; i < myList.length; i++) {
             System.out.print(myList[i] + " ");
         }
 
         //Do Shift RIGHT
-        
-        
+        temp = myList[4];
+        for (int i = myList.length-1; i > 0; i--) {
+            myList[i] = myList[i-1];
+        }
+        myList[0] = temp;
+  
+        System.out.println("");
+//printing
+        for (int i = 0; i < myList.length; i++) {
+            System.out.print(myList[i] + " ");
+        }       
   }
 }
 

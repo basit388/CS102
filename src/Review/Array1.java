@@ -21,6 +21,7 @@ public class Array1
       values[i] = i + values[i-1];
     }
     values[0] = values[1] + values[4];
+    System.out.println(values[0]);
   }
   
 }
