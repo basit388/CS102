@@ -15,6 +15,8 @@ public class Test1
     public static void main(String [] s)
     {
         Car A = new Car();
+        System.out.println(A.model);
+        System.out.println(A.year);
         Car B = new Car();
         
         //modify public attributes

@@ -16,10 +16,11 @@ package Class1.C2;
 public class Person 
 {
     //variables / attributes
-    public int ID; // <-----private member
-    public String Name;
+    private int ID; // <-----private member
+    private String Name;
     
     //constuctors
+    //default constructor
     Person()
     {
         ID = 0;
@@ -31,6 +32,8 @@ public class Person
         this.ID = ID;
         this.Name = Name;
     }
+    
+
     //copy constructor
     Person(Person P)
     {
@@ -49,5 +52,13 @@ public class Person
     public void setID(int ID)
     {
         this.ID = ID;
+    }
+    public String getName()
+    {
+        return Name;
+    }
+    public void setName(String Name)
+    {
+        this.Name = Name;
     }
 }

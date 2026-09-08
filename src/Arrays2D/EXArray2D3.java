@@ -54,7 +54,7 @@ public class EXArray2D3 {
         
         
         //return the sum
-
+        return 0;
     }    
     
     public static int maxGrade(int [] G){

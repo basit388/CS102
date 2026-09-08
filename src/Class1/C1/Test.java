@@ -14,8 +14,11 @@ public class Test
 {
     public static void main(String [] s)
     {
+        int x = 0;
+        System.out.println(x);
+        
         Car A = new Car();
-        System.out.println(A);
+        //System.out.println(A);
         
         //accessing public attributes
         System.out.println(A.model);

@@ -1,4 +1,4 @@
-package Class1.Ex6;
+package Class1.Lab4.Ex3;
 
 /*
 Exercise 5
@@ -18,7 +18,18 @@ public class Test {
     
     public static void main(String[] args) {
         
+        Date D1=new Date(1,1,2010);
+        Date D2=new Date(1,9,2025);
+        Student S1=new Student();
+        S1.birthDate=D1;
+        S1.enrolledDate=D2;
         
+        Student S2= new Student(123,"Ahmed",3.5,
+        new Date(1,1,2004),
+        new Date(1,9,2025));
+        
+        System.out.println(S1.birthDate.equals(S2.birthDate));
+        System.out.println(S1.enrolledDate.equals(S2.enrolledDate));
         
         
     }

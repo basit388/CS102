@@ -15,6 +15,7 @@ public class Test
 {
     public static void main(String [] s)
     {
+
         Patient A = new Patient();
         A.id = 1;
         A.age = 20;
@@ -22,7 +23,7 @@ public class Test
         Patient B = new Patient(2, 18);
         
         //Lets check if A and B are equal!!
-        if(A == B)
+        if(A.equals(B))
             System.out.println("true");
         else
             System.out.println("false");
@@ -30,11 +31,11 @@ public class Test
         Patient C = new Patient(1, 20);
         
         //Lets check if A and C are equal!!        
-        if(A == C)
+        if(A.equals(C))
             System.out.println("true");
         else
             System.out.println("false");
-                
+          
         //why false??
         //you cannot compare the object directly!!
         

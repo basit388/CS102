@@ -1,4 +1,4 @@
-package Class1.Ex6;
+package Class1.Lab4.Ex3;
 /*
 Exercise 5
 Class Date is given with the following details:
@@ -27,6 +27,11 @@ public class Date {
         m=M;
         y=Y;        
     }
+    Date(Date other){
+        this.d=other.d;
+        this.m=other.m;
+        this.y=other.y;
+    }
     
     @Override
     public boolean equals(Object obj) {
@@ -45,5 +50,10 @@ public class Date {
         return d == other.d &&
                m == other.m &&
                y == other.y;
+    }
+    public void setDate(int d, int m, int y){
+        this.d=d;
+        this.m=m;
+        this.y=y;
     }
 }

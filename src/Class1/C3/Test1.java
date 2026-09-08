@@ -29,7 +29,7 @@ public class Test1
         //call static method to change static variable
         Student.changeStudentCount(10);
 
-        Student S4 = new Student(4, "Ali");
+        Student S4 = new Student(4, "Abdullah");
         System.out.println("id: " + S4.getId() + ", " +
                 S4.getName() +", count: " + Student.count);
         //note student count changed         

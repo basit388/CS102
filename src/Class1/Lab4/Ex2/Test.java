@@ -1,4 +1,4 @@
-package Class1.Ex5;
+package Class1.Lab4.Ex2;
 
 /*
 Run the program

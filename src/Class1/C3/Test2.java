@@ -25,7 +25,7 @@ public class Test2
         Student.changeStudentCount(24);
         //now count is 24.
         
-        Student S2 = new Student(2, "Ali");
+        Student S2 = new Student(2, "Saleh");
         //count becomes 25.
         
         if(S2.MAX_STUDENTS == 25)

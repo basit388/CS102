@@ -27,6 +27,8 @@ public class Test3
         System.out.println(C.year);
         
         Car D = new Car(1970);
+        System.out.println(D.year);
+        System.out.println(D.model);
         
    
     }

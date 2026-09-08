@@ -16,10 +16,10 @@ public class Test1
         //object data type copying is different??
         Person Robot1 = new Person();
         Robot1.setID(101);
-        Robot1.Name = "Robo-01";
+        Robot1.setName("Robo-01");
 
         System.out.println(Robot1);
-        System.out.println(Robot1.getID() + ": " + Robot1.Name);
+        System.out.println(Robot1.getID() + ": " + Robot1.getName());
         System.out.println();
         Person Robot2;
         
@@ -27,7 +27,7 @@ public class Test1
         Robot2 = Robot1;
 
         System.out.println(Robot2);
-        System.out.println(Robot2.getID() + ": " + Robot2.Name);
+        System.out.println(Robot2.getID() + ": " + Robot2.getName());
         System.out.println();
        
         //Robot2 is NOT a copy of Robot1 !!
@@ -37,7 +37,7 @@ public class Test1
         Robot2 = new Person(Robot1);
         System.out.println(Robot2);
         System.out.println("ID: "+ Robot2.getID());
-        System.out.println("Name: "+ Robot2.Name);
+        System.out.println("Name: "+ Robot2.getName());
 
         //make CLONES of Robot
         Person Robot3, Robot4, Robot5;

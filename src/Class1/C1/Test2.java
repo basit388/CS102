@@ -33,7 +33,10 @@ public class Test2
         System.out.println(B.model);
         System.out.println(B.year);
                 
-                
+        Car C = new Car(2015);
+        C.model = "Dodge";
+        System.out.println(C.model);
+        System.out.println(C.year);
     }
     
 }

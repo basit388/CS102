@@ -1,4 +1,4 @@
-package Class1.Ex4;
+package Class1.Lab4.Ex1;
 
 /*
 Exercise 4

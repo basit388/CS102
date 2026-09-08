@@ -24,17 +24,18 @@ public class Car
         return year;
     }
     //constructors
-    Car() // constructor
+    Car() // default constructor
     {
-        year = 2024;
-        model = "Nil";
+        year = 0;
+        model = "null";
     }
     
     //overloaded constructor
-    Car(int year, String m)// constructor with parameter
+     // 2000,   "Lexus"
+    Car(int year, String model)// constructor with parameter
     {
         this.year = year;
-        model = m;
+        this.model = model;
     }
 
     //overloaded constructor

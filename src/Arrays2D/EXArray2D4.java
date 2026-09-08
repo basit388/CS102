@@ -38,6 +38,9 @@ public class EXArray2D4 {
     
     public static int [][] makeArray(int r, int c)
     {
+        int [][] A = new int[r][c];
+        //to do
+        return A;
     }
     
     
@@ -57,12 +60,12 @@ public class EXArray2D4 {
     //find the max value in row r
     public static int findMaxR(int [][] A, int r) {
         
-        
+        return 0;
     }
     
     //find the min value in col c
     public static int findMinC(int [][] A, int c) {
         
-        
+        return 0;
     }    
 }
