@@ -6,7 +6,9 @@ Dept. of Computer Sc, Prince Sultan University
 September 8, 2026
 https://www.ieeepsu.org/basit/cs102/
 
-*/
+*/   
+
+
 package Class2.C2;
 
 public class Archer extends Character{
