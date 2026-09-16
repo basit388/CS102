@@ -14,6 +14,3 @@ Methods:
 
 package Class2.Lab5.Ex1;
 
-public class Car {
-    
-}

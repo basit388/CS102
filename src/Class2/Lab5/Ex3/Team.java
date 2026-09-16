@@ -14,7 +14,7 @@ Methods:
   calculateSalaries() //adds salaries for all players
     and subtract from budget
 */
-package Class2.Lab5.Ex2;
+package Class2.Lab5.Ex3;
 
 public class Team {
     

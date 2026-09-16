@@ -6,8 +6,6 @@ Write a Main class with a main method to:
   Call ringHorn() to test subclass-specific behavior.
 */
 package Class2.Lab5.Ex1;
-
-
 public class Test {
-    
+
 }

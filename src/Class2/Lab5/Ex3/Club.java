@@ -11,7 +11,7 @@ Methods:
   setters and getters
 
 */
-package Class2.Lab5.Ex2;
+package Class2.Lab5.Ex3;
 
 public class Club {
     

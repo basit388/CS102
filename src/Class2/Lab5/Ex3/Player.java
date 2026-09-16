@@ -9,7 +9,7 @@ Methods:
   Write appropraite methods
   Write constructors
 */
-package Class2.Lab5.Ex2;
+package Class2.Lab5.Ex3;
 
 public class Player {
     

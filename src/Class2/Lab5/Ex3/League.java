@@ -10,7 +10,7 @@ Methods:
   displayClubDetails() (Override), 
   playMatch() //improve ranking by 1
 */
-package Class2.Lab5.Ex2;
+package Class2.Lab5.Ex3;
 
 public class League {
     
