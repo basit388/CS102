@@ -11,5 +11,3 @@ Instructions:
 
 */
 package Class3.Lab6.Ex1;
-
-

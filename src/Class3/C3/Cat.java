@@ -6,7 +6,7 @@ Dept. of Computer Sc, Prince Sultan University
 September 15, 2026
 https://www.ieeepsu.org/basit/cs102/
 
-//Parent class Phone
+
 */
 package Class3.C3;
 

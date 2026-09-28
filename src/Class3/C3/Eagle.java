@@ -10,7 +10,8 @@ https://www.ieeepsu.org/basit/cs102/
 */
 package Class3.C3;
 
-class Eagle extends Animal implements Flyable {
+class Eagle extends Animal
+        implements Flyable {
     public Eagle(String name) {
         super(name);
     }
