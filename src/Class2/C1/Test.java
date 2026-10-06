@@ -28,6 +28,26 @@ public class Test {
         z.attack(); // inherited from Character
         z.fireBall(); 
 
+        
+        
+        
+        
+        
+        
+        
+        Warrior w1 = new Warrior();
+        w1.health = 100;
+        w1.name = "Hello";
+        w1.move();
+        
+        Character c1 = new Character();
+        c1.
+        
+        
+        
+        
+        
+        
     }
 
 }
