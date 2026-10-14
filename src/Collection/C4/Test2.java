@@ -10,35 +10,29 @@ https://www.ieeepsu.org/basit/cs102/
 */
 package Collection.C4;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
-class Car{
-    String name;
-    int doors;
-    Car(String n, int d){
-        this.name = n;
-        this.doors = d;
-    }
-    @Override
-    public String toString(){
-        return "{"+name+", "+doors +"}";
-    }
-}
-
-public class Test2 
+public class Test2
 {
-    public static void main(String [] s)
-    {
-        HashSet <Car> c = new HashSet<>();
-        c.add(new Car("Toyota", 4));
-        c.add(new Car("Lexus", 4));
-        c.add(new Car("Ford", 2));
+    public static void main(String [] args){
+        LinkedHashSet<String> al = new LinkedHashSet<>();
+        al.add("CS101");
+        al.add("CS499");
+        al.add("CS102");
 
+        System.out.println(al);
 
-        System.out.println(c);
+        al.remove("CS101");
+        System.out.println(al);
 
-
+        //Maintains order when adding values
+        al.add("CS101");
+        System.out.println(al);
         
+        al.add("CS101");
+        System.out.println(al);
+                
     }
+
     
 }

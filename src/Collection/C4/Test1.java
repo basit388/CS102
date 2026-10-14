@@ -11,22 +11,34 @@ https://www.ieeepsu.org/basit/cs102/
 package Collection.C4;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
-public class Test1
+class Car{
+    String name;
+    int doors;
+    Car(String n, int d){
+        this.name = n;
+        this.doors = d;
+    }
+    @Override
+    public String toString(){
+        return "{"+name+", "+doors +"}";
+    }
+}
+
+public class Test1 
 {
-    public static void main(String [] args){
-        HashSet<String> al = new HashSet<>();
-        al.add("CS101");
-        al.add("CS499");
-        al.add("CS102");
+    public static void main(String [] s)
+    {
+        HashSet <Car> c = new HashSet<>();
+        c.add(new Car("Toyota", 4));
+        c.add(new Car("Lexus", 4));
+        c.add(new Car("Ford", 2));
 
-        Iterator<String> iterator = al.iterator();
-        while (iterator.hasNext())
-            System.out.print(iterator.next() + ", ");
+
+        System.out.println(c);
+
 
         
     }
-
     
 }

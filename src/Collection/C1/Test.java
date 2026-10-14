@@ -21,8 +21,10 @@ public class Test
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Mango");
+        
+        System.out.println(fruits);
 
-        System.out.println(fruits.remove("BananA"));
+        System.out.println(fruits.remove("Banana"));
         System.out.println(fruits);
 
       

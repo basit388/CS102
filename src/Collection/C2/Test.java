@@ -25,7 +25,7 @@ public class Test
 
         System.out.println("Before:" + al);
         
-        al.remove(2);
+        al.remove(1);
         System.out.println("After:" + al);
 
     }

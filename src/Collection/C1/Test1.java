@@ -24,6 +24,8 @@ public class Test1
 
         nums.remove(4);
         System.out.println(nums);
+        
+        
 
     }
     
