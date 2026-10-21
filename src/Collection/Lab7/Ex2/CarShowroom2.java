@@ -38,8 +38,8 @@ public class CarShowroom2
         //Is there a difference between this and HashSet output
         //Check if there are any duplicates?
         
-        
-        //Add the following cars to your LinkedHashSet:
+        // Create a new LinkedHashSet
+        //Add the following cars to the new LinkedHashSet:
         /*
             Toyota - Camry - 115000
             Toyota - Camry - 115000
@@ -50,6 +50,7 @@ public class CarShowroom2
         //Are these cars different?
         //Toyota - Camry - 115000
         //Toyota - Camry - 120000
+        //Display all cars in the new set.
         
         //Do set operations
         

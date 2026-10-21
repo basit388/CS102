@@ -8,7 +8,7 @@ Instructions:
 3. Methods
     Parametrized constructor
     getters and setters
-    Overrider toString method
+    Override toString method
     equals or compareTo method
 */
 package Lab7.Ex1;

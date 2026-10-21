@@ -16,6 +16,8 @@ import java.util.Map;
 public class Test 
 {
     public static void main(String [] args){
+
+        //   key      value
         Map<Integer, String> M = new HashMap<>();
         M.put(101, "Ali");
         M.put(102, "Ahmed");

@@ -24,9 +24,9 @@ public class Test1
         L.add("name"); 
         L.add("is"); 
         L.add("Ahmad"); 
-
+   
         Iterator<String> I = L.iterator();
-        
+          
         while (I.hasNext()) {
             System.out.println(I.next());
         }

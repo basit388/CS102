@@ -47,7 +47,7 @@ public class Test2
             @Override
             public int compare(Student s1, Student s2) {
                 return s2.age - s1.age; // changed
-            }
+            }  
         };
         
         Collections.sort(students, d_byAge);

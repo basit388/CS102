@@ -47,6 +47,6 @@ public class CarShowroom
         //remove the following
         //Toyota Land Cruiser - 220000 SAR
         
-        //what happens?
+        //what happens? show the contents of the HashSet
     }
 }

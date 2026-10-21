@@ -26,10 +26,10 @@ public class Test1
         p.add(7);
         p.add(2);
 
-        Iterator<Integer> iterator = p.iterator();
+        Iterator<Integer> i = p.iterator();
 
-        while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " ");
+        while (i.hasNext()) {
+            System.out.print(i.next() + " ");
         }
 
     }
