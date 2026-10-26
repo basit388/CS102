@@ -4,7 +4,7 @@
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 September 8, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 */
 package Class2.C3;

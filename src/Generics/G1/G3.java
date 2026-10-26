@@ -30,10 +30,14 @@ public class G3 {
         Item <Integer> i = new Item<>();
         i.set(3);
         System.out.println(i.get());
-        
+          
         Item <String> s = new Item<>();
         s.set("hello");
         System.out.println(s.get());
+        
+        Item <Double> d = new Item<>();
+        d.set(10.0);
+        System.out.println(d.get());
         
     }
 }

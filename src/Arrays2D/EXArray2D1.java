@@ -8,7 +8,7 @@ import java.util.Scanner;
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 August 8, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 //Exercise 1
 Write a program that calculates the total score for students in a class. 

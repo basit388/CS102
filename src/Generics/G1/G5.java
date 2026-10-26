@@ -24,7 +24,7 @@ class Item <T extends Number>{
         for(int i=0;i<Arr.length;i++)
             sum += Arr[i].doubleValue();
         return sum/Arr.length;
-    }
+    }   
 }
  
 
@@ -35,14 +35,14 @@ public class G5 {
         Double [] dArr = {1.1, 2.2, 3.3, 4.4, 5.5, 6.6};
 
         Item <Double> d = new Item<>(dArr);
-        
+         
         System.out.println(d.Average());
         
         
         Integer [] iArr = {1,2,3,4,5,6};
 
         Item <Integer> i = new Item<>(iArr);
-        
+          
         System.out.println(i.Average());        
         
     }

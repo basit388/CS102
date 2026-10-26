@@ -4,7 +4,7 @@
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 August 22, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 //Patient class is used for teaching these concepts:
 1. equals and instanceof

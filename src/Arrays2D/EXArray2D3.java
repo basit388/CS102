@@ -10,7 +10,7 @@ import java.util.Scanner;
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 August 8, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 //Exercise 3
 Write a program that grades the scores of a multiple choice exam.

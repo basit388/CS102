@@ -4,7 +4,7 @@
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 September 15, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 //Test abstract class
 //Use polymorphism with abstract class
