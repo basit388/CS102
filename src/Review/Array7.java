@@ -6,7 +6,7 @@ package Review;
 CS102 Programming II
 Dept. of Computer Sc, Prince Sultan University
 August 8, 2026
-https://www.ieeepsu.org/basit/cs102/
+https://www.drbasit.org/cs102/
 
 //Searching a value in a int array
 */
